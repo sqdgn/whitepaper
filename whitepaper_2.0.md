@@ -69,7 +69,7 @@ The architecture consists of three core components:
 
 Each user is represented by a **User Agent**, which interfaces with Alpha Distribution and reflects the user’s preferences and tier-based capabilities.
 
-![SQDGN Terminal Architecture](https://gist.github.com/user-attachments/assets/9882bdb6-9723-48e8-92ca-e1ae1ceed24f)
+![SQDGN Terminal Architecture](img/architecture.png)
 
 
 ### 1. Alpha Seek (Strategy Pool & Discovery)
@@ -297,19 +297,19 @@ This approach provides a conservative but clear metric for the **intrinsic value
 
 Percentage of signals where the ATH within 7 days exceeded the entry price.
 
-![Signal Win Rates](https://gist.github.com/user-attachments/assets/9b32aa1a-7a78-4de2-a61d-d82759def600)
+![Signal Win Rates](img/signal-win-rates.png)
 
 #### 2. Distribution by Returns
 
 Return distribution (ATH within 7 days vs. entry price), showing the frequency of signals yielding various gain ranges.
 
-![Return Distribution](https://gist.github.com/user-attachments/assets/61622a98-e4df-4035-a319-861ea01cbe86)
+![Return Distribution](img/return-distribution.png)
 
 #### 3. Top 15 Signals
 
 Best-performing signals over the test period, sorted by 7-day ATH % gain over entry.
 
-![Top 15 Signals](https://gist.github.com/user-attachments/assets/1c43bfea-9158-4892-8ff6-ffbeb2c8e400)
+![Top 15 Signals](img/top-15-signals.png)
 
 ### Interpretation
 
