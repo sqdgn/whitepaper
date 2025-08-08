@@ -1,4 +1,4 @@
-# Whitepaper 2.0
+# Whitepaper v2.0
 
 ## Intro and Vision
 
@@ -69,9 +69,7 @@ The architecture consists of three core components:
 
 Each user is represented by a **User Agent**, which interfaces with Alpha Distribution and reflects the user’s preferences and tier-based capabilities.
 
-<p align="center">
-  <img width="90%" alt="SQDGN Terminal Architecture" src="https://gist.github.com/user-attachments/assets/9882bdb6-9723-48e8-92ca-e1ae1ceed24f" />
-</p>
+![SQDGN Terminal Architecture](https://gist.github.com/user-attachments/assets/9882bdb6-9723-48e8-92ca-e1ae1ceed24f)
 
 
 ### 1. Alpha Seek (Strategy Pool & Discovery)
@@ -299,19 +297,19 @@ This approach provides a conservative but clear metric for the **intrinsic value
 
 Percentage of signals where the ATH within 7 days exceeded the entry price.
 
-<img width="1280" height="523" alt="Signal Win Rates" src="https://gist.github.com/user-attachments/assets/9b32aa1a-7a78-4de2-a61d-d82759def600" />
+![Signal Win Rates](https://gist.github.com/user-attachments/assets/9b32aa1a-7a78-4de2-a61d-d82759def600)
 
 #### 2. Distribution by Returns
 
 Return distribution (ATH within 7 days vs. entry price), showing the frequency of signals yielding various gain ranges.
 
-<img width="1280" height="368" alt="Return Distribution" src="https://gist.github.com/user-attachments/assets/61622a98-e4df-4035-a319-861ea01cbe86" />
+![Return Distribution](https://gist.github.com/user-attachments/assets/61622a98-e4df-4035-a319-861ea01cbe86)
 
 #### 3. Top 15 Signals
 
 Best-performing signals over the test period, sorted by 7-day ATH % gain over entry.
 
-<img width="1280" height="679" alt="Top 15 Signals" src="https://gist.github.com/user-attachments/assets/1c43bfea-9158-4892-8ff6-ffbeb2c8e400" />
+![Top 15 Signals](https://gist.github.com/user-attachments/assets/1c43bfea-9158-4892-8ff6-ffbeb2c8e400)
 
 ### Interpretation
 
