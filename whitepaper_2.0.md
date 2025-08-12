@@ -12,7 +12,7 @@ Meanwhile, **alpha signals and sophisticated execution tools remain concentrated
 - Retail traders rely on public, often delayed information  
 - High-risk strategies are pursued without systematic risk filtering  
 
-There was a signincant progress to address the problem from different angles, but to this day only specific segments were addressed. 
+There was significant progress to address the problem from different angles, but to this day only specific segments were addressed. 
 
 ### Current Tool Landscape: What Exists Today 
 
@@ -34,9 +34,9 @@ These tools cover:
 
 **But none combine:**
 - Real-time on-chain data‑driven alpha discovery  
-- Full automation, trading 24/7 without the direct user involvement  
+- Full automation, trading 24/7 without direct user involvement  
 - Fair, probabilistic distribution of low-capacity, high-conviction trades to a broad retail base  
-- Retaining the control and the ownership to the user
+- Retaining control and the ownership for the user
 
 Despite the high volume and retail demand, the **high-risk/high-reward segment remains structurally underserved**.
 
@@ -140,7 +140,7 @@ Users at higher tiers (**Shark** and **Kraken**) additionally receive:
 
 - Access to **open position inspection**
 - Option to **adjust or close trades manually**
-- Access to the incoming signals and positions via an API to enable **evaluation by extrernal tools**
+- Access to the incoming signals and positions via an API to enable **evaluation by external tools**
 
 This ensures that advanced users can combine AI-assisted execution with discretionary decision-making when needed.
 
@@ -192,7 +192,7 @@ Advanced features include:
 - Manual overrides to smart DCA, sniping, position management (available for **Bluefin**, **Shark** and **Kraken** tiers)
 - **Shark** and **Kraken** tiers get priority early access to new markets and features (e.g. perpetuals markets)
 
-Over time, the user agents making execution bids will evolve into a full-fledged digital squid avatars, and then higher tiers will get access to additional perks and boosts (eg to unlock new strategies or increase the odds of winning bids temporarily). Lower tiers will be able to purchase the boosts in the app.
+Over time, the user agents making execution bids will evolve into full-fledged digital squid avatars, and then higher tiers will get access to additional perks and boosts (eg to unlock new strategies or increase the odds of winning bids temporarily). Lower tiers will be able to purchase the boosts in the app.
 
 ### Subscription Access
 
@@ -280,7 +280,7 @@ The upcoming **Terminal** addresses this by combining signal generation with **a
 
 ### Performance Evaluation Methodology
 
-To assess the raw edge of the signal generation models we analyzed each call as follows:
+To assess the raw edge of the signal generation models, we analyzed each call as follows:
 
 - For every signal, track the **all-time high (ATH) price** within **7 days** of publication
 - Compare this ATH to the signal’s entry price
@@ -327,12 +327,12 @@ These results validate the core thesis:
 
 ## Appendix: Bid Selection
 
-This technical section will describe the tier levels provide the actual formulas for the probability distribion that should reflect:
+This technical section will describe the tier levels and provide the actual formulas for the probability distribution that should reflect:
 - Risk preferences
 - User tier/stake tokens
 - Capital at risk
 
-The output will be a set of allocations to be sent to the exection.
+The output will be a set of allocations to be sent to the execution.
 
 The details will be addressed in the future versions of the whitepaper.
 
